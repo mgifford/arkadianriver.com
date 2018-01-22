@@ -77,9 +77,22 @@
 		hdr-lheight-smaller:   1em
 	);
 
+// https://toolness.github.io/accessible-color-matrix/?n=white&n=light&n=bright&n=medium&n=dark&n=black&v=FFFFFF&v=FFBF27&v=4E9E3F&v=289988&v=A01815&v=000000
+// FFBF27 - Yellow
+// 3E8635 - Green
+// 1C8576 - Teal
+// A01815 - Dark red
+// 861D20 - red from image
+
+// Wedding Red Palette
+// #870f0f
+// b41c1c - bright red top menu bar
+// 2e3842
+
+
 // Palette.
 	$palette: (
-		bg:					#870f0f,
+		bg:					#1C8576,
 		fg:					#fff,
 		fg-bold:			#fff,
 		fg-light:			rgba(255,255,255,0.75),
@@ -89,7 +102,7 @@
 		border2-bg:			rgba(144,144,144,0.75),
 
 		accent1: (
-			bg:				#6b1010,
+			bg:				#3E8635, 
 			fg-bold:		#fff,
 			fg:				mix(#21b2a6, #fff, 25%),
 			fg-light:		mix(#21b2a6, #fff, 40%),
@@ -100,7 +113,7 @@
 		),
 
 		accent2: (
-			bg:				#2e3842,
+			bg:				#3E8635,
 			fg-bold:		#fff,
 			fg:				mix(#00ffcc, #fff, 25%),
 			fg-light:		mix(#00ffcc, #fff, 40%),
@@ -144,7 +157,7 @@
 		),
 
 		accent6: (
-			bg:				#DC392D,
+			bg:				#861D20,
 			fg-bold:		#fff,
 			fg:				mix(#ed4933, #fff, 25%),
 			fg-light:		mix(#ed4933, #fff, 40%),
