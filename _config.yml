@@ -28,13 +28,13 @@ greeting:
   text: We want you to help us celebrate our life together! We will be adding information here to help you join us in either Ottawa, Vancouver or Thailand.
 
 # - title for your blog's featured posts
-features-title: Ottawa
-features-title: Vancouver
-features-title: Thailand
+# features-title: Ottawa
+# features-title2: Vancouver
+# features-title3: Thailand
 
 # - displayed at the bottom
 closing-head: We hope you can help us celebrate!
-closing-para: We need you to RSVP!
+# closing-para: We need you to RSVP!
 
 # on all pages (and the first three you list display with greeting, if included)
 social:
