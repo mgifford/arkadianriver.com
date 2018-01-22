@@ -33,7 +33,7 @@ features-title: Vancouver
 features-title: Thailand
 
 # - displayed at the bottom
-closing-head: We home you can help us celebrate!
+closing-head: We hope you can help us celebrate!
 closing-para: We need you to RSVP!
 
 # on all pages (and the first three you list display with greeting, if included)
@@ -42,8 +42,8 @@ social:
   # github: https://github.com/mgifford
   # facebook-official: https://facebook.com/gary.faircloth
   # email: /contact/
-  email-m: mailto:mike@openconcept.ca
   email-r: mailto:dancingrebecca@gmail.com
+  email-m: mailto:mike@openconcept.ca
   #flickr:
   #instagram:
 
