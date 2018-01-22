@@ -82,7 +82,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		text-decoration: none;
 
 		&:hover {
-			border-bottom-color: red;
+			border-bottom-color: #6b1010;
 		}
 		&:focus {
 			border-bottom-color: green;
@@ -95,8 +95,20 @@ $baseurl: '{{ site.baseurl }}/images';
 	}
 	a h2:focus {
 	  text-decoration: underline;
-	  border-bottom-color: red;
+	  border-bottom-color: #6b1010;
 	}
+
+    a.fa-email-m {
+      background-image: url("../images/Mike_head_small.png");
+      background-repeat: no-repeat;
+      background-color: green;
+      
+    }
+    a.fa-email-r {
+      background-image: url("../images/Rebecca_head_small.png");
+      background-repeat: no-repeat;
+      background-color: #870f0f;
+    }
 
 	strong, b {
 		color: _palette(fg-bold);
@@ -609,7 +621,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 
 		&.major {
-			@include vendor('transform', 'rotate(-45deg)');
+		/*	@include vendor('transform', 'rotate(-45deg)'); */
 			border-radius: 3px;
 			border: solid 2px _palette(border);
 			display: inline-block;
@@ -620,7 +632,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			width: calc(3em + 2px);
 
 			&:before {
-				@include vendor('transform', 'rotate(45deg)');
+			/*		@include vendor('transform', 'rotate(45deg)'); */
 				display: inline-block;
 				font-size: 1.5em;
 			}
